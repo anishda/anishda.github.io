@@ -1,20 +1,31 @@
+/* Réinitialisation des marges et des paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
     margin: 20px auto;
     max-width: 800px;
     line-height: 1.6;
+    padding: 20px;
 }
 
+/* Style pour l'en-tête */
 header {
     text-align: center;
     padding: 40px 20px;
-    background-color: #fff;
+    background-color: #1e1e1e;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+/* Style pour le profil */
 .profile {
     display: flex;
     flex-direction: column;
@@ -30,17 +41,17 @@ header {
 
 .profile-info h1 {
     margin: 10px 0;
-    color: #007BFF;
+    color: #00b4db;
 }
 
 .profile-info p {
     margin: 5px 0;
-    color: #555;
+    color: #b0b0b0;
 }
 
 .social-links a {
     margin: 0 10px;
-    color: #007BFF;
+    color: #00b4db;
     text-decoration: none;
 }
 
@@ -48,6 +59,7 @@ header {
     text-decoration: underline;
 }
 
+/* Style pour les sections */
 main {
     padding: 20px;
 }
@@ -57,26 +69,28 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #007BFF;
+    border-bottom: 2px solid #00b4db;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    color: #007BFF;
+    color: #00b4db;
 }
 
+/* Style pour les projets */
 .project {
-    background-color: #fff;
+    background-color: #1e1e1e;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
 }
 
+/* Style pour les compétences */
 .skills ul {
     list-style: none;
     padding: 0;
@@ -85,7 +99,7 @@ h2 {
 }
 
 .skills li {
-    background-color: #007BFF;
+    background-color: #00b4db;
     color: #fff;
     padding: 10px;
     border-radius: 4px;
@@ -93,9 +107,10 @@ h2 {
     margin-right: 10px;
 }
 
+/* Style pour le bouton de contact */
 .contact-button {
     display: inline-block;
-    background-color: #007BFF;
+    background-color: #00b4db;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -104,15 +119,17 @@ h2 {
 }
 
 .contact-button:hover {
-    background-color: #0056b3;
+    background-color: #008bb2;
 }
 
+/* Style pour le pied de page */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #fff;
+    background-color: #1e1e1e;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     margin-top: 40px;
 }
+
 

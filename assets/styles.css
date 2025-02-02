@@ -1,18 +1,18 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #121212;
-    color: #e0e0e0;
-    margin: 0;
-    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 20px auto;
+    max-width: 800px;
+    line-height: 1.6;
 }
 
 header {
     text-align: center;
     padding: 40px 20px;
-    background-color: #1e1e1e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .profile {
@@ -30,15 +30,17 @@ header {
 
 .profile-info h1 {
     margin: 10px 0;
+    color: #007BFF;
 }
 
 .profile-info p {
     margin: 5px 0;
+    color: #555;
 }
 
 .social-links a {
     margin: 0 10px;
-    color: #e0e0e0;
+    color: #007BFF;
     text-decoration: none;
 }
 
@@ -55,35 +57,39 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 2px solid #007BFF;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    color: #007BFF;
 }
 
 .project {
-    background-color: #1e1e1e;
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project:hover {
     transform: translateY(-5px);
-    background-color: #2e2e2e;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .skills ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skills li {
-    background-color: #1e1e1e;
+    background-color: #007BFF;
+    color: #fff;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 10px;
-    display: inline-block;
     margin-right: 10px;
 }
 
@@ -104,8 +110,9 @@ h2 {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #1e1e1e;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
 }
+
